@@ -17,7 +17,7 @@ public class ContextClickStudy {
 		//create a object of action class
 		Actions act=new Actions(driver);
 		//find element to be worked and store it 
-				
+		// vishal date has made some changes		
 		WebElement rightClick = driver.findElement(By.xpath("//span[text()='right click me']"));
 		//take action
 	//	act.moveToElement(rightClick).contextClick().build().perform();
