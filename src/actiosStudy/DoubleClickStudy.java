@@ -16,13 +16,13 @@ public class DoubleClickStudy {
 		Thread.sleep(2000);
 		//create a object of action class
 		Actions act=new Actions(driver);
-		//find element to be worked and store it 
+		 
 				
 		WebElement doubleClick = driver.findElement(By.xpath("//button[text()='Double-Click Me To See Alert']"));
 		
 		act.doubleClick(doubleClick).perform();
 		
-		
+		//find element to be worked and store it
 	}
 
 }
